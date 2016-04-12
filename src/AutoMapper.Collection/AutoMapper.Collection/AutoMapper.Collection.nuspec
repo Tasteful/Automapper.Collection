@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>AutoMapper.Collection-Signed</id>
+		<version>$version$</version>
+		<authors>$author$</authors>
+		<owners>$author$</owners>
+		<description>$description$</description>
+		<copyright>$copyright$</copyright>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>AutoMapper</tags>
+  </metadata>
+</package>

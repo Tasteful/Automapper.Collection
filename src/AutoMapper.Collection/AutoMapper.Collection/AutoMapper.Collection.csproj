@@ -33,6 +33,13 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
+    <BuildPackage>true</BuildPackage>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>AutoMapperCollection.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AutoMapper, Version=4.0.4.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
@@ -62,6 +69,8 @@
     <Compile Include="Equivilency Expression\UserDefinedEquivilentExpressions.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="AutoMapper.Collection.nuspec" />
+    <None Include="AutoMapperCollection.snk" />
     <None Include="Equivilency Expression\packages.config" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
