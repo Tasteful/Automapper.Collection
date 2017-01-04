@@ -11,7 +11,7 @@ namespace AutoMapper.Mappers
     public class EquivlentExpressionAddRemoveCollectionMapper : IObjectMapper
     {
         private readonly ConcurrentDictionary<Type, MethodCacheItem> _methodCache = new ConcurrentDictionary<Type, MethodCacheItem>();
-        private readonly CollectionMapper _collectionMapper = new CollectionMapper();
+        private readonly ArrayCollectionMapper _collectionMapper = new ArrayCollectionMapper();
 
         public object Map(ResolutionContext context)
         {
